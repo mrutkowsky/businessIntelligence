@@ -1,2 +1,0 @@
-SELECT Color, CAST(AVG(ListPrice) as INT) as "AVG list price" FROM Production.Product GROUP BY Color  ;
-SELECT ProductID as "Identyfikator",Name as "Nazwa",Color as "Kolor",ListPrice as "Cena katalogowa",(ListPrice-StandardCost) as "Zysk" FROM Production.Product ORDER BY Nazwa;
